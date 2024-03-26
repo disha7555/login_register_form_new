@@ -1,0 +1,61 @@
+input{
+    margin:10px;
+    
+}
+body{
+    
+    background-image:url("blue_nature.jpg");
+    background-repeat: no-repeat;
+    background-size:1400px 700PX;
+
+}
+form{
+    background-color:linen;
+   
+}
+input[type="submit"]
+{
+    background-image: linear-gradient(#AA336A,purple);
+    color: white;
+    width:100%;
+}
+.title1{
+    color:#AA336A ;
+    font-weight:bolder;
+}
+
+.form-control2{
+   
+    display: block;
+    border-radius: 5px;
+    border:2px;
+    border-style: inset;
+    width:30vw;
+
+   
+}
+#row1{
+    margin-left: 40px;
+}
+input #u_name .form-control{
+    padding:0px 0px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .title1{
+        font-size: 10%;
+    }    
+    .content{
+        width: 100%;
+        margin: 0;
+    }
+    }
+
+    .form_content {
+        max-width: 100%; /* Changed to adapt to different screen sizes */
+        margin: 0 auto; /* Center the form */
+    }
